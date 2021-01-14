@@ -1,0 +1,9 @@
+.snake {
+  background-color: #2196f3;
+  position: fixed;
+  width: 19px;
+  height: 19px;
+  left: 15px;
+  top: 65px;
+  z-index: 100;
+}

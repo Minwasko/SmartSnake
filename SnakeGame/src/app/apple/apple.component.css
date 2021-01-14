@@ -1,0 +1,9 @@
+#apple {
+  background-color: red;
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  top: 500px;
+  left: 500px;
+  z-index: 100;
+}
