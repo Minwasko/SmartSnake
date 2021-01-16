@@ -26,7 +26,8 @@ export class SnakeComponent implements OnInit {
       'w', 'W', 'a', 'A', 's', 'S', 'd', 'D'];
     if (correctKeys.includes(event.key) && event.key !== this.lastPressed && !this.isDead) {
       this.moveSnake(event.key);
-    } else {
+    } else if (event.key === 'r' || event.key === 'R'){
+      this.restartGame();
     }
   }
   moveSnake(key: string): void {
