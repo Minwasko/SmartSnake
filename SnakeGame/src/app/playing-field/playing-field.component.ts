@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit, Renderer2, ElementRef} from '@angular/core';
 
 @Component({
   selector: 'app-playing-field',
@@ -6,10 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./playing-field.component.css']
 })
 export class PlayingFieldComponent implements OnInit {
-
-  constructor() { }
-
+  constructor(private renderer2: Renderer2, private el: ElementRef) { }
   ngOnInit(): void {
   }
-
 }

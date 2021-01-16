@@ -7,3 +7,19 @@
   top: 65px;
   z-index: 100;
 }
+
+#end_game_overlay {
+  position: fixed;
+  width: 650px;
+  height: 650px;
+  background-color: white;
+  z-index: -100;
+  opacity: 50%;
+}
+
+.restart_button {
+  position: fixed;
+  top: 300px;
+  left: 225px;
+  font-size: 50px;
+}
